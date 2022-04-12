@@ -3,7 +3,7 @@
 ## Features
 - DOS Attack
 - ARP Attack
--
+- DNS Attack
 
 ## Team Members
 - Atul Chand - 110056181
